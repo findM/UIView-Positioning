@@ -41,15 +41,15 @@
     self.height     = size.height;
 }
 
--(void)setRight:(CGFloat)right {
+-(void)setRightX:(CGFloat)rightX{
     CGRect frame = self.frame;
-    frame.origin.x = right - frame.size.width;
+    frame.origin.x = rightX - frame.size.width;
     self.frame = frame;
 }
 
--(void)setBottom:(CGFloat)bottom {
+-(void)setBottomY:(CGFloat)bottomY {
     CGRect frame = self.frame;
-    frame.origin.y = bottom - frame.size.height;
+    frame.origin.y = bottomY - frame.size.height;
     self.frame = frame;
 }
 
@@ -86,11 +86,11 @@
     return CGSizeMake(self.width, self.height);
 }
 
--(CGFloat)right {
+-(CGFloat)rightX {
     return self.frame.origin.x + self.frame.size.width;
 }
 
--(CGFloat)bottom {
+-(CGFloat)bottomY {
     return self.frame.origin.y + self.frame.size.height;
 }
 

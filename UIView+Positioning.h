@@ -15,10 +15,10 @@
 @property (nonatomic, assign) CGPoint   origin;
 
 @property (nonatomic, assign) CGSize    size;
-
-@property (nonatomic, assign) CGFloat   bottom;
-
-@property (nonatomic, assign) CGFloat   right;
+/*底部的y值*/
+@property (nonatomic, assign) CGFloat   bottomY;
+/*右边界的x值*/
+@property (nonatomic, assign) CGFloat   rightX;
 
 @property (nonatomic, assign) CGFloat   centerX;
 

@@ -24,9 +24,4 @@
 
 @property (nonatomic, assign) CGFloat   centerY;
 
-@property (nonatomic, strong, readonly) UIView *lastSubviewOnX;
-
-@property (nonatomic, strong, readonly) UIView *lastSubviewOnY;
-
--(void) centerToParent;
 @end
